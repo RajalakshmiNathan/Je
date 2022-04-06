@@ -18,7 +18,7 @@ public class Login {
 	public void loginToLeafTaps() {
                  // Read the param                             
 		String browser = System.getProperty("browser");
-		//System.out.print(browser);
+		System.out.print(browser);
 		if(browser == null){
 			browser = "chrome";
 		}
